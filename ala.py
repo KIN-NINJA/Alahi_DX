@@ -72,8 +72,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
-    os.system('pip install bs4')
-    os.system('python ala.py')
+    os.system('pip install bs4')   
 
 #------------------APK<>CHECKER-------------------#    
 def cek_apk(session,coki):
@@ -184,7 +183,7 @@ logo="""
 \033[1;91m[-] s¥ѕ𝕋𝔢𝓜    :\033[1;32mĐ₳₮₳ & ₩ł₣ł
 \033[1;35m[-] 𝔾丨Ŧ𝓱υ𝐛   :\033[1;91m𝔸𝕷𝞐Нⵏ
 \033[1;36m[-] 𝔽𝔸ℂ𝔼𝔹𝕆𝕆𝕂  :\033[1;36m\x1b[1;33mF\x1b[1;34ma\x1b[1;36mz\x1b[1;35ml\x1b[1;90ma\x1b[1;91m A\x1b[1;92ml\x1b[1;93ma\x1b[1;94mh\x1b[1;95mi\x1b[1;96m
-\033[1;91m[-] 𝐕𝔼𝐑𝐬𝕚𝕆𝐍   :\033[1;33m\x1b[1;33m5\x1b[1;96m.\x1b[1;31m3\x1b[1;34m
+\033[1;91m[-] 𝐕𝔼𝐑𝐬𝕚𝕆𝐍   :\033[1;33m\x1b[1;33m5\x1b[1;96m.\x1b[1;31m5\x1b[1;34m
 \033[1;92m══════════════════════════════════════════
 \033[1;91m<═══\033[1;41m\033[1;96m THIS NAME IS \033[1;35m\x1b[1;33mF̺͆\x1b[1;34ma̺͆\x1b[1;36mz̺͆\x1b[1;35ml̺͆\x1b[1;90ma̺͆\x1b[1;91m A̺͆\x1b[1;92ml̺͆\x1b[1;93ma̺͆\x1b[1;94mh̺͆\x1b[1;95mi̺͆\x1b[1;96mBRAND\033[;0m\033[1;91m═══>\033[1;92m"""
 
@@ -195,9 +194,9 @@ try:
     ALAHI()
     print("\033[1;91m\nYOUR DEVICE IS NOT SUPPORTED!\n")
     ALAHI()
-    v = 5.2
-    update = ('5.2')
-    update = ('5.2')
+    v = 5.5
+    update = ('5.5')
+    update = ('5.5')
     if str(v) in update:
         os.system('clear')
     else:pass
@@ -224,9 +223,9 @@ else:
     
 try:
     print('\n\n\033[1;34mLoading asset files ... \033[0;96m')
-    v = 5.2
-    update = ('5.2')
-    update = ('5.2')
+    v = 5.5
+    update = ('5.5')
+    update = ('5.5')
     if str(v) in update:
         os.system('clear')
     else:pass
@@ -518,4 +517,3 @@ def rcrack1(uid,pwx,tl):
         
 
 o() 
-
